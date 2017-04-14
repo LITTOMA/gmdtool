@@ -43,11 +43,177 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\BinaryData\src\Syroot.IO.BinaryData\BinaryDataFormats.cs">
+      <Link>BinaryData\BinaryDataFormats.cs</Link>
+    </Compile>
+    <Compile Include="..\BinaryData\src\Syroot.IO.BinaryData\BinaryDataReader.cs">
+      <Link>BinaryData\BinaryDataReader.cs</Link>
+    </Compile>
+    <Compile Include="..\BinaryData\src\Syroot.IO.BinaryData\BinaryDataWriter.cs">
+      <Link>BinaryData\BinaryDataWriter.cs</Link>
+    </Compile>
+    <Compile Include="..\BinaryData\src\Syroot.IO.BinaryData\ByteOrder.cs">
+      <Link>BinaryData\ByteOrder.cs</Link>
+    </Compile>
+    <Compile Include="..\BinaryData\src\Syroot.IO.BinaryData\EncodingExtensions.cs">
+      <Link>BinaryData\EncodingExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\BinaryData\src\Syroot.IO.BinaryData\Offset.cs">
+      <Link>BinaryData\Offset.cs</Link>
+    </Compile>
+    <Compile Include="..\BinaryData\src\Syroot.IO.BinaryData\SeekTask.cs">
+      <Link>BinaryData\SeekTask.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\AssemblyLicenseAttribute.cs">
+      <Link>CommandLine\AssemblyLicenseAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\AssemblyUsageAttribute.cs">
+      <Link>CommandLine\AssemblyUsageAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\BaseOptionAttribute.cs">
+      <Link>CommandLine\BaseOptionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\HelpOptionAttribute.cs">
+      <Link>CommandLine\HelpOptionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\HelpVerbOptionAttribute.cs">
+      <Link>CommandLine\HelpVerbOptionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\MultiLineTextAttribute.cs">
+      <Link>CommandLine\MultiLineTextAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\OptionArrayAttribute.cs">
+      <Link>CommandLine\OptionArrayAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\OptionAttribute.cs">
+      <Link>CommandLine\OptionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\OptionListAttribute.cs">
+      <Link>CommandLine\OptionListAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\ParserStateAttribute.cs">
+      <Link>CommandLine\ParserStateAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\ValueListAttribute.cs">
+      <Link>CommandLine\ValueListAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\ValueOptionAttribute.cs">
+      <Link>CommandLine\ValueOptionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Attributes\VerbOptionAttribute.cs">
+      <Link>CommandLine\VerbOptionAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\BadOptionInfo.cs">
+      <Link>CommandLine\BadOptionInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Extensions\CharExtensions.cs">
+      <Link>CommandLine\CharExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Extensions\StringExtensions.cs">
+      <Link>CommandLine\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\GlobalSuppressions.cs">
+      <Link>CommandLine\GlobalSuppressions.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Infrastructure\Assumes.cs">
+      <Link>CommandLine\Assumes.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Infrastructure\Pair.cs">
+      <Link>CommandLine\Pair.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Infrastructure\PopsicleSetter.cs">
+      <Link>CommandLine\PopsicleSetter.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Infrastructure\ReflectionCache.cs">
+      <Link>CommandLine\ReflectionCache.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Infrastructure\ReflectionHelper.cs">
+      <Link>CommandLine\ReflectionHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Infrastructure\SR.strings.cs">
+      <Link>CommandLine\SR.strings.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\IParserState.cs">
+      <Link>CommandLine\IParserState.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parser.cs">
+      <Link>CommandLine\Parser.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\ParserException.cs">
+      <Link>CommandLine\ParserException.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\ParserSettings.cs">
+      <Link>CommandLine\ParserSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\ParserState.cs">
+      <Link>CommandLine\ParserState.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\ParsingError.cs">
+      <Link>CommandLine\ParsingError.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\ArgumentParser.cs">
+      <Link>CommandLine\ArgumentParser.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\IArgumentEnumerator.cs">
+      <Link>CommandLine\IArgumentEnumerator.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\LongOptionParser.cs">
+      <Link>CommandLine\LongOptionParser.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\OneCharStringEnumerator.cs">
+      <Link>CommandLine\OneCharStringEnumerator.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\OptionGroupParser.cs">
+      <Link>CommandLine\OptionGroupParser.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\OptionInfo.cs">
+      <Link>CommandLine\OptionInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\OptionMap.cs">
+      <Link>CommandLine\OptionMap.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\PresentParserState.cs">
+      <Link>CommandLine\PresentParserState.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\PropertyWriter.cs">
+      <Link>CommandLine\PropertyWriter.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\StringArrayEnumerator.cs">
+      <Link>CommandLine\StringArrayEnumerator.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\TargetCapabilitiesExtensions.cs">
+      <Link>CommandLine\TargetCapabilitiesExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Parsing\ValueMapper.cs">
+      <Link>CommandLine\ValueMapper.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Text\BaseSentenceBuilder.cs">
+      <Link>CommandLine\BaseSentenceBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Text\CopyrightInfo.cs">
+      <Link>CommandLine\CopyrightInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Text\EnglishSentenceBuilder.cs">
+      <Link>CommandLine\EnglishSentenceBuilder.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Text\FormatOptionHelpTextEventArgs.cs">
+      <Link>CommandLine\FormatOptionHelpTextEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Text\HeadingInfo.cs">
+      <Link>CommandLine\HeadingInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Text\HelpText.cs">
+      <Link>CommandLine\HelpText.cs</Link>
+    </Compile>
+    <Compile Include="..\commandline\src\libcmdline\Text\_ParsingErrorsHandler.cs">
+      <Link>CommandLine\_ParsingErrorsHandler.cs</Link>
+    </Compile>
+    <Compile Include="GMD.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

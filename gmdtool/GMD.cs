@@ -39,6 +39,7 @@ namespace gmdtool
             {
                 Entries[i].Message = reader.ReadString(BinaryStringFormat.ZeroTerminated);
             }
+            fs.Close();
         }
         public void Save(string path)
         {

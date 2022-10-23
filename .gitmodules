@@ -1,6 +1,6 @@
 [submodule "BinaryData"]
 	path = BinaryData
-	url = https://github.com/Syroot/BinaryData.git
+	url = https://gitlab.com/Syroot/BinaryData.git
 [submodule "commandline"]
 	path = commandline
 	url = https://github.com/gsscoder/commandline.git
